@@ -1,0 +1,8 @@
+backups
+files.txt
+images
+location.txt
+notes.txt
+os.txt
+report.txt
+script.sh

@@ -1,0 +1,17 @@
+Docker
+docker
+Docker Engine
+Docker Compose
+Kubernetes
+Terraform
+terraform cloud
+AWS
+aws
+ERROR: Disk Full
+ERROR: Permission Denied
+INFO: Backup Completed
+admin
+administrator
+admin123
+report.txt
+backup.tar.gz

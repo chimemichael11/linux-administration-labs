@@ -1,0 +1,8 @@
+Docker
+AWS
+Docker
+Linux
+Terraform
+AWS
+Kubernetes
+Docker

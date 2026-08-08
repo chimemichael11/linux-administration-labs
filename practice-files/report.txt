@@ -1,0 +1,13 @@
+linux Administration
+AWS Cloud
+Docker
+permissions
+Terraform
+Kubernetes
+Ansible
+Jenkins
+Git
+GitHub
+Nginx
+MySQL
+Terraform Cloud
