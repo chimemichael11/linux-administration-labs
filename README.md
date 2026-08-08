@@ -256,6 +256,8 @@ The next stage of my learning will build on this foundation by working with Git 
 
 Linux fundamentals completed through hands-on practice.
 
+The project includes hands-on exercises covering Linux administration, file management, permissions, SSH, text processing, Bash scripting, troubleshooting, and command-line automation.
+
 ## Author
 
 **Chime Michael Tochukwu**
