@@ -252,6 +252,10 @@ The next stage of my learning will build on this foundation by working with Git 
 
 ---
 
+## Project Status
+
+Linux fundamentals completed through hands-on practice.
+
 ## Author
 
 **Chime Michael Tochukwu**
