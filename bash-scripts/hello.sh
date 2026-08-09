@@ -6,4 +6,6 @@ echo "Current user: $USER"
 
 echo "Current directory: $PWD"
 
+echo "Hostname: $HOSTNAME"
+
 date
