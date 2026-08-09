@@ -8,4 +8,6 @@ echo "Current directory: $PWD"
 
 echo "Hostname: $HOSTNAME"
 
+echo "This is my Linux administration lab"
+
 date
