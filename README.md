@@ -258,6 +258,16 @@ Linux fundamentals completed through hands-on practice.
 
 The project includes hands-on exercises covering Linux administration, file management, permissions, SSH, text processing, Bash scripting, troubleshooting, and command-line automation.
 
+## Project Highlights
+
+- Created and executed Bash scripts for Linux administration tasks.
+- Practiced Linux file and directory management.
+- Worked with users, groups, permissions, and ownership.
+- Practiced SSH, SCP, and remote administration concepts.
+- Used `grep`, `sed`, `awk`, `cut`, `sort`, and `uniq` for text processing.
+- Practiced Bash conditionals, loops, variables, and user input.
+- Used Git to version-control the project and GitHub to publish it.
+
 ## Author
 
 **Chime Michael Tochukwu**
