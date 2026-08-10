@@ -8,7 +8,7 @@ echo "Current directory: $PWD"
 
 echo "Hostname: $HOSTNAME"
 
-echo "This is my Linux administration lab"
+echo "Linux administration lab - main branch version"
 
 echo "Running from the hello-script-improvement branch"
 
