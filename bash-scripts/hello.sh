@@ -10,4 +10,6 @@ echo "Hostname: $HOSTNAME"
 
 echo "This is my Linux administration lab"
 
+echo "Running from the hello-script-improvement branch"
+
 date
