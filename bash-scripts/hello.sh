@@ -6,7 +6,7 @@ echo "Current user: $USER"
 
 echo "Current directory: $PWD"
 
-echo "Hostname: $HOSTNAME - main branch"
+echo "Hostname: $HOSTNAME - main + feature"
 
 echo "Linux administration lab - main branch version"
 
