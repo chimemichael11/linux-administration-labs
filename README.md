@@ -246,7 +246,7 @@ linux-administration-labs/
 
 ## Next Steps
 
-This Linux project represents the foundation of my Cloud and DevOps learning journey.
+This Linux project represents my practical Cloud and DevOps foundation.
 
 I have now begun using Git and GitHub to version-control this project, manage branches, create commits, compare changes, merge branches, and resolve merge conflicts.
 
