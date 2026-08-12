@@ -248,7 +248,9 @@ linux-administration-labs/
 
 This Linux project represents the foundation of my Cloud and DevOps learning journey.
 
-The next stage of my learning will build on this foundation by working with Git and GitHub, followed by additional Cloud and DevOps technologies and projects.
+I have now begun using Git and GitHub to version-control this project, manage branches, create commits, compare changes, merge branches, and resolve merge conflicts.
+
+The next stage of my learning will build on this foundation with additional Cloud and DevOps technologies, automation, infrastructure as code, containerization, and deployment projects.
 
 ---
 
