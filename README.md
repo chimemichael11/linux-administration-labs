@@ -262,6 +262,10 @@ The project includes hands-on exercises covering Linux administration, file mana
 
 Git and GitHub practices are now also part of this project, including branching, merging, conflict resolution, pull requests, and rebasing.
 
+## Rebase Conflict Practice
+
+This section was created directly on the main branch.
+
 ## Project Highlights
 
 - Created and executed Bash scripts for Linux administration tasks.
