@@ -260,6 +260,8 @@ Linux fundamentals completed through hands-on practice.
 
 The project includes hands-on exercises covering Linux administration, file management, permissions, SSH, text processing, Bash scripting, troubleshooting, and command-line automation.
 
+Git and GitHub practices are now also part of this project, including branching, merging, conflict resolution, pull requests, and rebasing.
+
 ## Project Highlights
 
 - Created and executed Bash scripts for Linux administration tasks.
