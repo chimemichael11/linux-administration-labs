@@ -275,6 +275,7 @@ This section was created directly on the main branch.
 - Used `grep`, `sed`, `awk`, `cut`, `sort`, and `uniq` for text processing.
 - Practiced Bash conditionals, loops, variables, and user input.
 - Used Git to version-control the project and GitHub to publish it.
+- Practiced Git cherry-pick operations on a dedicated practice branch.
 
 ## Author
 
