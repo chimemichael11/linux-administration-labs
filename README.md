@@ -276,6 +276,7 @@ This section was created directly on the main branch.
 - Practiced Bash conditionals, loops, variables, and user input.
 - Used Git to version-control the project and GitHub to publish it.
 - Practiced Git cherry-pick operations on a dedicated practice branch.
+- Practiced Git remote and fetch operations.
 
 ## Author
 
