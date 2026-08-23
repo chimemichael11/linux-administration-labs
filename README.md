@@ -277,6 +277,7 @@ This section was created directly on the main branch.
 - Used Git to version-control the project and GitHub to publish it.
 - Practiced Git cherry-pick operations on a dedicated practice branch.
 - Practiced Git remote and fetch operations.
+- Practiced working with divergent remote branches.
 
 ## Author
 
