@@ -278,6 +278,7 @@ This section was created directly on the main branch.
 - Practiced Git cherry-pick operations on a dedicated practice branch.
 - Practiced Git remote and fetch operations.
 - Practiced working with divergent remote branches.
+- Practiced creating and merging a GitHub Pull Request.
 
 ## Author
 
