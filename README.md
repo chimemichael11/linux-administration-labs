@@ -286,3 +286,20 @@ This section was created directly on the main branch.
 
 Aspiring Cloud & DevOps Engineer
 
+## Linux Application Troubleshooting
+
+### Check if a service is running
+
+```bash
+systemctl status <service-name>
+```
+### Check listening ports
+
+```bash
+ss -tulpn
+```
+### Check recent service logs
+
+```bash
+journalctl -u <service-name> --since "10 minutes ago"
+```
