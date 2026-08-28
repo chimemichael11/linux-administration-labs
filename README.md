@@ -330,6 +330,16 @@ du -h --max-depth=1 <directory>
 
 Shows the disk usage of the directory and its immediate subdirectories.
 
+#### Example
+
+To investigate which directories are using space inside `/home/tochukwu`:
+
+```bash
+du -h --max-depth=1 /home/tochukwu
+```
+
+This can help identify large directories that may require further investigation.
+
 ### Troubleshooting approach
 
 Use `df -h` to identify which filesystem is running out of space, then use `du` to identify which directories are consuming the space.
