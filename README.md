@@ -303,3 +303,34 @@ ss -tulpn
 ```bash
 journalctl -u <service-name> --since "10 minutes ago"
 ```
+
+## Linux Disk Space Troubleshooting
+
+### Check filesystem disk usage
+
+```bash
+df -h
+```
+
+Shows disk space usage for mounted filesystems in human-readable format.
+
+### Check directory size
+
+```bash
+du -sh <directory>
+```
+
+Shows the total disk usage of a directory.
+
+### Find disk usage of immediate subdirectories
+
+```bash
+du -h --max-depth=1 <directory>
+```
+
+Shows the disk usage of the directory and its immediate subdirectories.
+
+### Troubleshooting approach
+
+Use `df -h` to identify which filesystem is running out of space, then use `du` to identify which directories are consuming the space.
+
