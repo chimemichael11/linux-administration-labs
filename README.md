@@ -344,3 +344,32 @@ This can help identify large directories that may require further investigation.
 
 Use `df -h` to identify which filesystem is running out of space, then use `du` to identify which directories are consuming the space.
 
+## Linux Process Troubleshooting
+
+### List running processes
+
+```bash
+ps aux
+```
+
+Shows currently running processes and information such as the user, PID, CPU usage, memory usage, and command.
+
+### Find a process by name
+
+```bash
+pgrep -a <process-name>
+```
+
+Finds processes matching the specified name and displays their PIDs and command lines.
+
+### Inspect a specific process
+
+```bash
+ps -p <PID> -f
+```
+
+Displays detailed information about a specific process using its PID.
+
+### Troubleshooting approach
+
+Use `ps aux` to get an overview of running processes. Use `pgrep` to find a process by name, then use `ps -p <PID> -f` to inspect the specific process in more detail.
