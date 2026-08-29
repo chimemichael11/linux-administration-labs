@@ -370,6 +370,32 @@ ps -p <PID> -f
 
 Displays detailed information about a specific process using its PID.
 
+### Example
+
+To investigate Nginx processes:
+
+```bash
+pgrep -a nginx
+```
+
+This displays the PIDs and command lines of matching Nginx processes.
+
+After identifying the PID from the output, use it with `ps` to inspect the specific process:
+
+```bash
+ps -p <PID> -f
+```
+
+For example, if `pgrep` returns `228823` as the PID of the Nginx master process:
+
+```bash
+ps -p 228823 -f
+```
+
+The PID should come from the current `pgrep` output because process IDs can change when processes restart.
+
+This allows you to identify the process owner, parent process, start time, and command being executed.
+
 ### Troubleshooting approach
 
 Use `ps aux` to get an overview of running processes. Use `pgrep` to find a process by name, then use `ps -p <PID> -f` to inspect the specific process in more detail.
