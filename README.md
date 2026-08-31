@@ -399,3 +399,74 @@ This allows you to identify the process owner, parent process, start time, and c
 ### Troubleshooting approach
 
 Use `ps aux` to get an overview of running processes. Use `pgrep` to find a process by name, then use `ps -p <PID> -f` to inspect the specific process in more detail.
+
+## Linux Process Monitoring with top
+
+### Start top
+
+```bash
+top
+```
+
+`top` provides an interactive, real-time view of running processes.
+
+The display refreshes automatically and shows system resource usage and individual processes.
+
+### Important information displayed by top
+
+The summary section provides information about system load, CPU usage, memory usage, and swap usage.
+
+The process table includes information such as:
+
+- `PID` — Process ID
+- `USER` — User that owns the process
+- `PR` — Process priority
+- `NI` — Nice value
+- `%CPU` — Percentage of CPU used by the process
+- `%MEM` — Percentage of physical memory used by the process
+- `TIME+` — Total CPU time used by the process
+- `COMMAND` — Command or program associated with the process
+
+### Identify high CPU usage
+
+While `top` is running, press:
+
+`P`
+
+This sorts processes by CPU usage, placing processes using the most CPU near the top.
+
+### Identify high memory usage
+
+While `top` is running, press:
+
+`M`
+
+This sorts processes by memory usage, placing processes using the most memory near the top.
+
+### Troubleshooting example
+
+If a Linux system is experiencing high CPU usage:
+
+```bash
+top
+```
+
+Press `P` to sort processes by CPU usage and identify the process consuming the most CPU.
+
+If the system is experiencing high memory usage, press `M` instead to sort processes by memory usage.
+
+After identifying a process ID, use `ps` to inspect it in more detail:
+
+```bash
+ps -p <PID> -f
+```
+
+For example, if `top` shows 1234 as the PID of the process:
+
+```bash
+ps -p 1234 -f
+```
+
+The PID should come from the current `top` output because process IDs can change when processes restart.
+
+Use `top` for real-time monitoring and `ps` for detailed information about a specific process.
