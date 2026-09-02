@@ -470,3 +470,7 @@ ps -p 1234 -f
 The PID should come from the current `top` output because process IDs can change when processes restart.
 
 Use `top` for real-time monitoring and `ps` for detailed information about a specific process.
+
+## Branch Protection Test
+
+This section is only for testing the protected main branch.
